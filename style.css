@@ -1,0 +1,88 @@
+body
+{
+    background-image: url("Images/logo1.PNG") !important;
+}
+.main
+{
+    background-color: white;
+    color: slateblue;
+    opacity:90% !important;
+}
+.heading
+{    
+    background-color: white !important;
+    height: 500px !important;
+    width: 350px !important;
+    margin: 0px auto;
+    margin-top: 40px;
+    box-shadow: 3px 5px 5px black;
+    border-radius: 20px;
+}
+.para
+{
+    font-size: 40px;
+    font-weight: bold;
+    text-align:center !important;
+}
+.para2
+{
+    border: none;
+    border-bottom-style: solid;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.but1
+{
+    margin-left: 50px;
+    margin-top: 8px;
+}
+.butt1
+{
+    border: none;
+}
+.butt2
+{
+    border: none;
+    background:rgb(255, 0, 55);
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+.butt3
+{
+    border: none;
+    background:rgb(68, 0, 255);
+    margin-left: 20px;
+    color: white;
+    font-weight: bold; 
+}
+.mylist
+{
+    margin-top: 20px;
+    width:100%;
+}
+@media only screen and (max-width: 600px) {
+    .main
+    {
+        background-color: white;
+        color: slateblue;
+        opacity:90% !important;
+    }
+    .heading
+{    
+    background-color: white !important;
+    height: 400px !important;
+    width: 300px !important;
+    margin: 0px auto;
+    margin-top: 40px;
+    box-shadow: 3px 5px 5px black;
+    border-radius: 20px;
+}
+.para
+{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+  }
